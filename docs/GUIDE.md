@@ -7,7 +7,7 @@ sudo usermod -a -G www-data $USER;
 sudo chown -Rf $USER:www-data ~/VNTT/BecaGIS_GeoPortal
 sudo chmod -Rf 775 ~/VNTT/BecaGIS_GeoPortal
 
-python -m venv ~/VNTT/.virtualenvs/geoportal
+python3 -m venv ~/VNTT/.virtualenvs/geoportal
 source ~/VNTT/.virtualenvs/geoportal/bin/activate
 #pip install Django==3.2
 
